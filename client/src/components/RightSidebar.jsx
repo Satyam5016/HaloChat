@@ -17,7 +17,7 @@ const RightSidebar = () => {
     }, [messages]);
 
     if (!selectedUser) return null;
-
+// Render user info and media
     return (
         <div className="bg-[#8185B2]/10 text-white w-full relative overflow-y-auto max-md:hidden">
             {/* User Info */}

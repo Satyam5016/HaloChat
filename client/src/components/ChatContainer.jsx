@@ -4,7 +4,7 @@ import { formatMessageTime } from '../lib/utils';
 import { ChatContext } from '../../context/ChatContext';
 import { AuthContext } from '../../context/AuthContext';
 import toast from 'react-hot-toast';
-
+// Chat Container Component
 const ChatContainer = () => {
   const { messages, selectedUser, setSelectedUser, sendMessage, getMessages } =
     useContext(ChatContext);
@@ -58,7 +58,7 @@ const ChatContainer = () => {
       </div>
     );
   }
-
+// Render chat interface
   return (
     <div className='h-full relative backdrop-blur-lg'>
       {/* Header */}
