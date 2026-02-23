@@ -11,6 +11,7 @@ import { Server } from "socket.io";
 const allowedOrigins = [
   "https://halo-chat-ru8h.vercel.app",  // your deployed frontend
   "http://localhost:5173",               // local dev frontend
+  "http://localhost:5174",               // local dev frontend (alternate port)
 ];
 
 // Create Express app and HTTP server
